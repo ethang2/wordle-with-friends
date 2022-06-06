@@ -15298,7 +15298,7 @@ const guessGrid = document.querySelector("[data-guess-grid]");
 const offsetFromDate = new Date(2022, 0, 1)
 const mOffset = Date.now() - offsetFromDate
 const dayOffset = mOffset / 1000 / 60 / 60 / 24
-const targetWord = targetWords[Math.floor(dayOffset)]
+const targetWord = "havoc";
 
 startInteraction()
 
